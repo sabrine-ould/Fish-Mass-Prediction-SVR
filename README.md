@@ -1,70 +1,105 @@
-# Fish Mass Prediction using SVR
+# 🐟 Fish Mass Prediction using SVR
 
-## Project Overview
+\<p align="center">
+&#x20; \<strong>Predicting Fish Body Mass with Machine Learning\</strong>
+&#x20; \<br>
+&#x20; \<em>Programming for Data Science · Master 1 · 2026–2027\</em>
+\</p>
+
+\<p align="center">
+&#x20; \<img src="[https://img.shields.io/badge/Theme-T3%20Fish-167D9A?style=for-the-badge](https://img.shields.io/badge/Theme-T3%20Fish-167D9A?style=for-the-badge)" />
+&#x20; \<img src="[https://img.shields.io/badge/Model-SVR-2455A4?style=for-the-badge](https://img.shields.io/badge/Model-SVR-2455A4?style=for-the-badge)" />
+&#x20; \<img src="[https://img.shields.io/badge/Task-Regression-398477?style=for-the-badge](https://img.shields.io/badge/Task-Regression-398477?style=for-the-badge)" />
+\</p>
+
+---
+
+## 01 · Project Overview
+
 This project is a Data Science mini-project focused on predicting fish body mass using **Support Vector Regression (SVR)** with an RBF kernel.
 
 The study uses fish measurements and environmental variables to predict the logarithm of fish mass.
 
-## Project Information
-- **Theme:** T3 – Fish
-- **Group:** G1 – Regression
-- **Pair ID:** T3Vr1-B3
-- **Model:** Support Vector Regression (SVR)
-- **Kernel:** RBF
-- **Epsilon:** 0.1
+## 02 · Project Information
 
-## Dataset
-The dataset contains information about 12,288 fish belonging to 24 species across 118 sites.
+| **Property** | **Description**                 |
+| :----------- | :------------------------------ |
+| Theme        | T3 – Fish                       |
+| Group        | G1 – Regression                 |
+| Pair ID      | T3Vr1-B3                        |
+| Model        | Support Vector Regression (SVR) |
+| Kernel       | RBF                             |
+| Epsilon      | 0.1                             |
 
-**Source:** Arranz et al. (2022), Data in Brief.
+## 03 · Dataset
 
-**DOI:** https://doi.org/10.1016/j.dib.2022.108248
+\<blockquote>
+&#x20; The dataset contains information about \<strong>12,288 fish\</strong> belonging to \<strong>24 species\</strong> across \<strong>118 sites\</strong>.
+\</blockquote>
 
-## Project Structure
-- `Data/` – Original dataset files and data dictionary.
-- `Documentation/` – Project instructions.
-- `Notebook/` – Jupyter notebook containing the project implementation.
-- `requirements.txt` – Required Python libraries.
+**Original source:** Arranz et al. (2022), *Data in Brief*.
 
-## Installation and Execution
+**DOI:** [10.1016/j.dib.2022.108248](https://doi.org/10.1016/j.dib.2022.108248)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sabrine-ould/Fish-Mass-Prediction-SVR.git
-   ```
+## 04 · Project Structure
 
-2. Navigate to the project folder:
-   ```bash
-   cd Fish-Mass-Prediction-SVR
-   ```
+```text
+Fish-Mass-Prediction-SVR/
+│
+├── Data/
+│   ├── Dataset files
+│   └── Data dictionary
+│
+├── Documentation/
+│   └── Project instructions
+│
+├── Notebook/
+│   └── fish_svr_project.ipynb
+│
+├── requirements.txt
+└── README.md
+```
 
-3. Install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 05 · Installation & Execution
 
-4. Open the notebook:
-   ```bash
-   jupyter notebook
-   ```
+**Step 1 — Clone the repository**
 
-5. Run `Notebook/fish_svr_project.ipynb` from beginning to end.
+```bash
+git clone https://github.com/sabrine-ould/Fish-Mass-Prediction-SVR.git
+cd Fish-Mass-Prediction-SVR
+```
 
-## Methodology
-The project includes:
-- Exploratory Data Analysis (EDA).
-- Data cleaning and preprocessing.
-- Categorical feature encoding.
-- Feature scaling.
-- Baseline model evaluation.
-- SVR hyperparameter tuning.
-- Model evaluation using site-based cross-validation.
+**Step 2 — Install dependencies**
 
-## Authors
-T3Vr1-B3 – Programming for Data Science, Academic Year 2026–2027.
-- Baseline model evaluation.
-- SVR hyperparameter tuning.
-- Model evaluation using site-based cross-validation.
+```bash
+pip install -r requirements.txt
+```
 
-## Authors
-T3Vr1-B3 – Programming for Data Science, Academic Year 2026–2027.
+**Step 3 — Launch Jupyter Notebook**
+
+```bash
+jupyter notebook
+```
+
+**Step 4 — Run the project**
+
+Open `Notebook/fish_svr_project.ipynb` and execute all cells from beginning to end.
+
+## 06 · Methodology
+
+The project follows these main stages:
+
+| Stage | Description                                        |
+| :---: | :------------------------------------------------- |
+|   01  | Exploratory Data Analysis (EDA)                    |
+|   02  | Data Cleaning and Preprocessing                    |
+|   03  | Categorical Feature Encoding                       |
+|   04  | Feature Scaling                                    |
+|   05  | Baseline Model Evaluation                          |
+|   06  | SVR Hyperparameter Tuning                          |
+|   07  | Model Evaluation using Site-Based Cross-Validation |
+
+---
+
+\<p align="center">   \<strong> T3Vr1-B3 \</strong>   \<br>   \<em>Programming for Data Science · 2026–2027\</em> \</p>
+
