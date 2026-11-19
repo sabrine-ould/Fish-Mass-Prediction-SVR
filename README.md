@@ -1,50 +1,64 @@
+# Fish Mass Prediction using SVR
 
-# T3Vr1-B3 – Fish Regression using SVR
+## Project Overview
+This project is a Data Science mini-project focused on predicting fish body mass using **Support Vector Regression (SVR)** with an RBF kernel.
 
-## 1. Project Overview
+The study uses fish measurements and environmental variables to predict the logarithm of fish mass.
 
-This project is part of the Programming for Data Science mini-project.
+## Project Information
+- **Theme:** T3 – Fish
+- **Group:** G1 – Regression
+- **Pair ID:** T3Vr1-B3
+- **Model:** Support Vector Regression (SVR)
+- **Kernel:** RBF
+- **Epsilon:** 0.1
 
-- Pair ID: T3Vr1-B3
-- Theme: T3 – Fish
-- Group: G1 – Regression
-- Assigned Model: Support Vector Regression (SVR)
-- Baseline Model: DummyRegressor
-- Target Variable: ln(mass)
+## Dataset
+The dataset contains information about 12,288 fish belonging to 24 species across 118 sites.
 
-## 2. Dataset
+**Source:** Arranz et al. (2022), Data in Brief.
 
-Dataset: Individual body size data of stream fish in the Iberian Peninsula.
+**DOI:** https://doi.org/10.1016/j.dib.2022.108248
 
-Dataset DOI: https://zenodo.org/records/6327188
+## Project Structure
+- `Data/` – Original dataset files and data dictionary.
+- `Documentation/` – Project instructions.
+- `Notebook/` – Jupyter notebook containing the project implementation.
+- `requirements.txt` – Required Python libraries.
 
-Associated Paper DOI: 10.1016/j.dib.2022.108248
+## Installation and Execution
 
-The dataset contains three files:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sabrine-ould/Fish-Mass-Prediction-SVR.git
+   ```
 
-- 0_Data_Dictionary: Description of variables.
-- 1_stream_information: Environmental information.
-- 2_fish_information: Fish information.
+2. Navigate to the project folder:
+   ```bash
+   cd Fish-Mass-Prediction-SVR
+   ```
 
-The environmental and fish datasets are connected using the Code_ID variable.
+3. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 3. Project Structure
+4. Open the notebook:
+   ```bash
+   jupyter notebook
+   ```
 
-- 01_Documentation: Project instructions and dataset documentation.
-- 02_Data: Original dataset files.
-- 03_Notebook: Jupyter Notebook.
-- 04_Results: Experimental results and figures.
-- 05_Report: Final Word report.
+5. Run `Notebook/fish_svr_project.ipynb` from beginning to end.
 
-## 4. How to Run the Project
+## Methodology
+The project includes:
+- Exploratory Data Analysis (EDA).
+- Data cleaning and preprocessing.
+- Categorical feature encoding.
+- Feature scaling.
+- Baseline model evaluation.
+- SVR hyperparameter tuning.
+- Model evaluation using site-based cross-validation.
 
-1. Install the required Python packages.
-2. Open the project in Jupyter Notebook.
-3. Open the project notebook.
-4. Run all cells from beginning to end using Run All.
-
-## 5. Reproducibility
-
-The random_state value is set to 42 wherever applicable.
-
-All experimental results are generated directly by the submitted code.
+## Authors
+T3Vr1-B3 – Programming for Data Science, Academic Year 2026–2027.
