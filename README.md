@@ -1,4 +1,10 @@
-# Fish Mass Prediction using SVR
+🐟 Fish Mass Prediction | SVR
+<p align="center">
+  **Predicting Fish Body Mass Using Machine Learning**
+</p>
+
+📌 About the Project
+A Data Science mini-project focused on predicting fish body mass using Support Vector Regression (SVR) with an RBF kernel.
 
 ## Project Overview
 This project is a Data Science mini-project focused on predicting fish body mass using **Support Vector Regression (SVR)** with an RBF kernel.
