@@ -1,11 +1,4 @@
 # 🐟 Fish Mass Prediction using SVR
-
-\<p align="center">
-&#x20; \<strong>Predicting Fish Body Mass with Machine Learning\</strong>
-&#x20; \<br>
-&#x20; \<em>Programming for Data Science · Master 1 · 2026–2027\</em>
-\</p>
-
 <p align="center">
   <strong>Predicting Fish Body Mass with Machine Learning</strong>
   <br>
