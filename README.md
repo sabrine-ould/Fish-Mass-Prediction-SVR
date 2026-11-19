@@ -6,11 +6,16 @@
 &#x20; \<em>Programming for Data Science · Master 1 · 2026–2027\</em>
 \</p>
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Theme-T3%20Fish-167D9A?style=for-the-badge](https://img.shields.io/badge/Theme-T3%20Fish-167D9A?style=for-the-badge)" />
-&#x20; \<img src="[https://img.shields.io/badge/Model-SVR-2455A4?style=for-the-badge](https://img.shields.io/badge/Model-SVR-2455A4?style=for-the-badge)" />
-&#x20; \<img src="[https://img.shields.io/badge/Task-Regression-398477?style=for-the-badge](https://img.shields.io/badge/Task-Regression-398477?style=for-the-badge)" />
-\</p>
+<p align="center">
+  <strong>Predicting Fish Body Mass with Machine Learning</strong>
+  <br>
+  <em>Programming for Data Science · Master 1 · 2026–2027</em>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Theme-T3%20Fish-167D9A?style=for-the-badge" alt="Theme: T3 Fish">
+  <img src="https://img.shields.io/badge/Model-SVR-2455A4?style=for-the-badge" alt="Model: SVR">
+  <img src="https://img.shields.io/badge/Task-Regression-398477?style=for-the-badge" alt="Task: Regression">
+</p>
 
 ---
 
